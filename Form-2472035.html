@@ -6,13 +6,36 @@
 <body class="font">
     <link rel="stylesheet" href="style2.css">
     <table class="tabel">
-        <th>
-            <td class="regis"><h1>Registration Form</h1></td>
-        </th>
-        <th>
-            <td><p>Name: </p></td>
-            <td><p><input style="text"></p></td>
-        </th>
+        <form>
+        <tr>
+            <td class="judul"><h1>Registration Form</h1></td>
+        </tr>
+        <tr>
+            <td>
+                Name: <br>
+                <input type="text"><br>
+                Email: <br>
+                <input type="email"><br>
+                Password: <br>
+                <input type="password"><br>
+                Age: <br>
+                <input type="number"><br>
+                Gender: <br>
+                <input type="radio" name="Male"> Male
+                <input type="radio" name="Female"> Female
+                <input type="radio" name="other"> Other <br>
+                Course: <br/>
+                <select name="course" class="course">
+                    <option value="option1">Teknik Informatika</option>
+                    <option value="option1">Sistem Informasi</option>
+                    <option value="option1">Teknik Elektro</option>
+                    <option value="option1">Teknik Komputer</option>
+                </select>
+                <br>
+                <input type="submit" value="REGISTER" class="button">
+            </td>
+        </tr>
+        </form>
     </table>
 </body>
 </html>

@@ -28,10 +28,24 @@ body {
 
 .email, .nrp, .nama {
     color: red;
-    
 }
 
+.kampus:hover {
+    color: red;
+    text-decoration: none;
+    visibility: hidden;
+}
 
 .titik {
     list-style: hiragana;
+}
+
+.Project {
+    list-style: hiragana;
+}
+
+.Project:hover {
+    font-size: larger;
+    background-color: lightskyblue;
+    border-radius: 10px;
 }

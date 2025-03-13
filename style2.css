@@ -11,8 +11,32 @@ body {
 .tabel {
     background-color: white;
     margin: auto;
+    vertical-align: middle;
+    align-content: center;
+    width: 400px;
 }
 
-.regis {
-    font-style: unset;
+.judul {
+    font-size: 21px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.course {
+    margin: auto;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border: 5px;
+    border-radius: 5px;
+}
+
+.button{
+    background-color: black;
+    border-radius: 10px;
+    color: yellow;
+    margin: auto;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
 }
