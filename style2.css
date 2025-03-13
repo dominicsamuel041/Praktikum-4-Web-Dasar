@@ -1,0 +1,18 @@
+body {
+    background-image: url("./img/Background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.font {
+    font-family: arial;
+}
+
+.tabel {
+    background-color: white;
+    margin: auto;
+}
+
+.regis {
+    font-style: unset;
+}

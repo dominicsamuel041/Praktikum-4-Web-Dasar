@@ -1,0 +1,37 @@
+body {
+    background-image: url("./img/cat.jpg");
+    background-repeat: repeat;
+    background-size: 300px;
+}
+
+#tabel1 {
+    background-color: cadetblue;
+    border-radius: 10px;
+    margin: auto;
+    font-family: arial;
+    width: 80%;
+}
+
+.subjudul {
+    font-family: sans-serif;
+    text-align: center;
+    height: 50px;
+}
+
+#tabel2 {
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.email, .nrp, .nama {
+    color: red;
+    
+}
+
+
+.titik {
+    list-style: hiragana;
+}
